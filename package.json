@@ -1,0 +1,28 @@
+{
+  "name": "ethical-utility-babel-directory-transpiler",
+  "version": "0.0.0",
+  "description": "Full directory Babel transpiler utility for the Ethical framework.",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "nutra --config ./nutra.config.js",
+    "test-debugger": "DEBUG=1 node --inspect-brk ./node_modules/.bin/nutra --config ./nutra.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ethically/ethical-utility-babel-directory-transpiler.git"
+  },
+  "author": "m-a-r-c-e-l-i-n-o <me@marceli.no>",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.0",
+    "nutra": "0.0.13",
+    "nutra-jasmine-coverage-babel-preset": "0.0.6"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.0",
+    "ethical-utility-path": "0.0.0",
+    "fs-extra": "^4.0.1",
+    "recursive-readdir-sync": "^1.0.6"
+  }
+}
